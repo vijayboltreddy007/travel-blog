@@ -1,0 +1,24 @@
+
+.navbar {
+    background: #024959;
+}
+.navlist {
+    list-style: none;
+}
+
+nav a {
+    margin: 10px 20px;
+    padding: 10px 22px;
+    color: #eee;
+    transition: 0.4s;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: rgb(68, 182, 3);
+}
+
+nav h2 {
+    margin: 10px 20px;
+    padding: 10px 22px;
+}
