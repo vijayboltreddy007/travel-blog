@@ -5,16 +5,12 @@
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    grid-template-areas: 
-    "header"
-    "section"
-    "footer";
+    grid-template-areas: "header" "section" "footer";
     background-color: #037F8C;
     margin: 0px;
     border: 0px;
     padding: 0px;
 }
-
 
 * {
     box-sizing: border-box;
@@ -33,6 +29,7 @@
     background: #225;
 }
 
+
 /* Media Queries */
 
 @media (max-width: 330px) {
@@ -42,29 +39,23 @@
     .menu {
         width: auto;
     }
-    
-
 }
 
 @media (min-width: 600px) {
     .navbar {
         display: flex;
     }
-
     .left,
     .right {
         display: flex;
         flex: 1;
     }
-
     .menu {
         width: auto;
     }
-
     .right {
         justify-content: flex-end;
     }
-
     .navbar div {
         display: flex;
     }
@@ -82,7 +73,6 @@
     justify-content: center;
     align-items: center;
     margin: opx;
-  
 }
 
 .card {
@@ -100,7 +90,7 @@
     text-decoration: none;
     align-content: center;
     margin: 5px;
-    box-shadow: 5px 5px 5px ;
+    box-shadow: 5px 5px 5px;
 }
 
 .column {
@@ -110,9 +100,8 @@
 .card-image img {
     width: 275px;
     height: 215px;
-    border-radius: 10px ;
+    border-radius: 10px;
     box-shadow: 10px 10px 10px;
-    
 }
 
 .btn-viewmore {
@@ -122,6 +111,6 @@
     padding: 10px;
     text-align: center;
     font-weight: bold;
-    color: white;
+    color: rgb(55, 0, 255);
     cursor: pointer;
 }
