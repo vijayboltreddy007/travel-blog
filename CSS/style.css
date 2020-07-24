@@ -5,7 +5,10 @@
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    grid-template-areas: "header" "section" "footer";
+    grid-template-areas: 
+    "header"
+    "section" 
+    "footer";
     background-color: #037F8C;
     margin: 0px;
     border: 0px;
