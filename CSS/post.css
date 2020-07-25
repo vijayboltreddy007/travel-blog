@@ -1,5 +1,10 @@
 @import "nav.css";
 @import "menu.css";
+body {
+    background-image: url("../Images/water.png");
+    fill-opacity: inherit;
+    color: white;
+}
 .author {
     display: grid;
     font-size: 2em;
