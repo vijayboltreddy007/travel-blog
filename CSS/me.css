@@ -1,5 +1,8 @@
 body {
-  
-    
-    background-image: url("../Images/one.jpg");
+    /*background-image: url("../Images/idyllicbeach.png");*/
+}
+.nav {
+    display: grid;
+    margin: 5px;
+    border: 10px solid red;
 }
